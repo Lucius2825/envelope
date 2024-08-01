@@ -3,7 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fae1dd;
+    background-image: url('images/IMG_0339.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .container {
