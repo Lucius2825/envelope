@@ -3,19 +3,22 @@ $(document).ready(function() {
         $(".card").stop().animate({
             top: "-90px"
         }, "slow");
-    }).mouseleave(function(){
-        $(".card").stop().animate({
-            top: 0
-        }, "slow", function() {
-            // Show the message and start the countdown
-            showMessageAndCountdown();
-        });
+
+        // Delay for 3 seconds before starting the countdown and showing the message box
+        setTimeout(function() {
+            $(".card").stop().animate({
+                top: "0"
+            }, "slow", function() {
+                // Show the message box and start the countdown
+                showMessageAndCountdown();
+            });
+        }, 2000); // 3000ms delay for 3 seconds
     });
-    
+
     function showMessageAndCountdown() {
         $("#messageBox").removeClass("hidden");
         
-        var countdown = 5;  // Start countdown from 5
+        var countdown = 3;  // Start countdown from 5
         var countdownElement = $("#countdown");
         countdownElement.text(countdown);
         
