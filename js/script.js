@@ -25,7 +25,7 @@ $(document).ready(function() {
                 countdownElement.text(countdown);
             } else {
                 clearInterval(interval);
-                window.location.href = "https://github.com/FIQTOR/flowers-for-someone.git"; // Redirect to another page
+                window.location.href = "flowerindex.html"; // Redirect to another page
             }
         }, 1000);
     }
