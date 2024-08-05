@@ -5,7 +5,6 @@ body {
     height: 100vh;
     background-image: url("../images/IMG_0339.jpeg");
     background-size: 100% 100%;
-    background-repeat: repeat;
     overflow: hidden;
     background-attachment: fixed;
 }
